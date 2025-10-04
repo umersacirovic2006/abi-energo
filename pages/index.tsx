@@ -1,5 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import Header from "./Components/Header";
+import Hero from "./Components/Hero";
+import About from "./Components/About";
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -17,6 +19,8 @@ export default function Home() {
             className={`${geistSans.className} ${geistMono.className} font-sans`}
         >
             <Header />
+            <Hero />
+            <About />
         </div>
     );
 }
