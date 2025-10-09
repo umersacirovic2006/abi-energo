@@ -4,7 +4,7 @@ const Hero = () => {
     return (
         <div
             id="features"
-            className='h-screen flex flex-col bg-[url("/hero.webp")] bg-contain bg-no-repeat bg-right px-60 py-40'
+            className='h-[65vh] flex flex-col bg-[url("/hero.webp")] bg-cover bg-no-repeat bg-right px-60 py-22'
         >
             <h2 className="text-4xl font-bold w-1/3">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta

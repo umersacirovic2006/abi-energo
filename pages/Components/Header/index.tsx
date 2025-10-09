@@ -6,28 +6,28 @@ export default function Header() {
     const [open, setOpen] = useState(false);
 
     return (
-        <header className="bg-[#cfc487] w-full flex justify-between items-center">
-            <div className="clip-logo flex px-20 py-5 w-fit h-full bg-[#515151]">
-                <Image src="/logo.png" alt="Logo" width={130} height={60} />
+        <header className="bg-[url('/nav.png')] bg-cover bg-no-repeat h-fit w-full flex justify-between items-center">
+            <div className="ml-60 flex px-20 py-5 w-fit h-full">
+                <Image src="/logo.png" alt="Logo" width={260} height={120} />
             </div>
 
             <div className="pr-20 ">
-                <nav className="hidden md:flex gap-10">
+                <nav className="hidden md:flex gap-10 text-[#515151]">
                     <a
                         href="#features"
-                        className="hover:text-[#51d4fe] transition-colors"
+                        className="hover:text-[#022577] transition-colors"
                     >
                         Start
                     </a>
                     <a
                         href="#about"
-                        className="hover:text-[#51d4fe] transition-colors"
+                        className="hover:text-[#022577] transition-colors"
                     >
                         About us
                     </a>
                     <a
                         href="#contact"
-                        className="hover:text-[#51d4fe] transition-colors"
+                        className="hover:text-[#022577] transition-colors"
                     >
                         Contact
                     </a>

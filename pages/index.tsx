@@ -3,6 +3,7 @@ import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -23,6 +24,7 @@ export default function Home() {
             <Hero />
             <About />
             <Contact />
+            <Footer />
         </div>
     );
 }
