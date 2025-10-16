@@ -17,19 +17,25 @@ export default function Header() {
                         href="#features"
                         className="hover:text-[#022577] transition-colors"
                     >
-                        Start
+                        Početna
                     </a>
                     <a
                         href="#about"
                         className="hover:text-[#022577] transition-colors"
                     >
-                        About us
+                        O Nama
+                    </a>
+                    <a
+                        href="#additional-about"
+                        className="hover:text-[#022577] transition-colors"
+                    >
+                        Usluge
                     </a>
                     <a
                         href="#contact"
                         className="hover:text-[#022577] transition-colors"
                     >
-                        Contact
+                        Kontakt
                     </a>
                 </nav>
 
@@ -47,21 +53,28 @@ export default function Header() {
                             onClick={() => setOpen(false)}
                             className="hover:text-[#51d4fe]"
                         >
-                            Start
+                            Početna
                         </a>
                         <a
                             href="#about"
                             onClick={() => setOpen(false)}
                             className="hover:text-[#51d4fe]"
                         >
-                            About us
+                            O Nama
+                        </a>
+                        <a
+                            href="#additional-about"
+                            onClick={() => setOpen(false)}
+                            className="hover:text-[#51d4fe]"
+                        >
+                            Usluge
                         </a>
                         <a
                             href="#contact"
                             onClick={() => setOpen(false)}
                             className="hover:text-[#51d4fe]"
                         >
-                            Contact
+                            Kontakt
                         </a>
                     </nav>
                 )}

@@ -3,6 +3,7 @@ import React from "react";
 import logoH from "@/public/logo.png";
 import energo from "@/public/energo.png";
 import ares from "@/public/ares.png";
+import { Map, Mail, Phone } from "lucide-react";
 
 const Footer = () => {
     return (
@@ -24,27 +25,32 @@ const Footer = () => {
                         href="#features"
                         className="hover:text-[#022577] transition-colors"
                     >
-                        Start
+                        Početna
                     </a>
                     <a
                         href="#about"
                         className="hover:text-[#022577] transition-colors"
                     >
-                        About us
+                        O Nama
+                    </a>
+                    <a
+                        href="#additional-about"
+                        className="hover:text-[#022577] transition-colors"
+                    >
+                        Usluge
                     </a>
                     <a
                         href="#contact"
                         className="hover:text-[#022577] transition-colors"
                     >
-                        Contact
+                        Kontakt
                     </a>
                 </div>
                 <div className="flex flex-col h-fit w-1/3 justify-center">
-                    <h3 className="font-semibold mb-8">Contact Us</h3>
-                    <h4 className="">Phone</h4>
-                    <p className="">+123 456 7890</p>
-                    <h4 className="">Email</h4>
-                    <p className="">asacirovic90@gmail.com</p>
+                    <h3 className="font-semibold mb-8">Kontakt</h3>
+                    <div className="flex gap-2"><Map /><p>Cetinjska 28, 36300 Novi Pazar</p></div>
+                    <div className="flex gap-2"><Mail /><p>office@hayatenergy.com</p></div>
+                    <div className="flex gap-2"><Phone /><p>+381 62 466 403</p></div>
                 </div>
             </div>
 
